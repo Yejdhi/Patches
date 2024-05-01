@@ -7,8 +7,8 @@ Allows you to change Google accounts/phones and helps preserve the game
 
 diff --git a/smali/com/googleplay/licensing/ServerManagedPolicy.smali b/smali/com/googleplay/licensing/ServerManagedPolicy.smali
 index b732bf1..d4b4e9d 100644
---- a/smail/com/googleplay/licensing/ServerManagedPolicy.smali
-+++ b/smail/com/googleplay/licensing/ServerManagedPolicy.smali
+--- a/smali/com/googleplay/licensing/ServerManagedPolicy.smali
++++ b/smali/com/googleplay/licensing/ServerManagedPolicy.smali
 @@ -650,7 +650,7 @@
 
      const/4 v3, 0x1
