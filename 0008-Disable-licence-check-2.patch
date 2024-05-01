@@ -3,19 +3,17 @@ From: Yejdhi <yejdhi46@gmail.com>
 Date: Wed, 1 May 2024 13:00:00 +0000
 Subject: [PATCH] Disable licence check 2
 
-Allows you to change Google accounts/phones and helps preserve the game
 
 diff --git a/smali/com/googleplay/licensing/ServerManagedPolicy.smali b/smali/com/googleplay/licensing/ServerManagedPolicy.smali
 index b732bf1..d4b4e9d 100644
 --- a/smali/com/googleplay/licensing/ServerManagedPolicy.smali
 +++ b/smali/com/googleplay/licensing/ServerManagedPolicy.smali
-@@ -650,8 +650,8 @@
-
+@@ -650,7 +650,7 @@
      .prologue
      const/4 v3, 0x1
-
+ 
 -    const/4 v2, 0x0
 +    const/4 v2, 0x1
-
+ 
      .line 265
      invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
