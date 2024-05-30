@@ -7,6 +7,10 @@ Auto-generated patched for the game
 
 ---
 
+<details>
+<summary>Disable licence check 2</summary>
+
+### Minecraft:Earth
 `com/googleplay/licensing/ServerManagedPolicy`
 
 ```smali
@@ -27,3 +31,5 @@ Auto-generated patched for the game
 ...
 
 ```
+
+</details>
